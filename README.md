@@ -10,7 +10,7 @@ In this environment, a double-jointed arm can move to target locations. A reward
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 There are two environments available - one with a single agent and the other with multiple (20) agents. This submission uses the multiple agent environment.
- For the multiple agent environment, the scores from all the agents are averaged and envtt is considered solved when this average score is +30 over 100 consecutive episodes.
+For the multiple agent environment, the scores from all the agents are averaged and envtt is considered solved when this average score is +30 over 100 consecutive episodes.
 
 ## Setting up the Python Enviroment
 The following libraries are needed to run the code:
